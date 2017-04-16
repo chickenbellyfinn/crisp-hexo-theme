@@ -1,0 +1,131 @@
+pre, code {
+	font-family: monospace;
+	color: $highlight-foreground;
+	background: $highlight-background;
+	font-size: 1.05em;
+}
+
+code {
+	padding: 0 5px;
+}
+
+pre {
+	padding: 10px 15px;
+	line-height: 22px;
+
+	code {
+		border: none;
+		display: block;
+		padding: 0;
+	}
+}
+
+.highlight {
+	background: $highlight-background;
+	padding: 10px 5px;
+	color: $highlight-foreground;
+	overflow: auto;
+	margin: 0;
+	margin-top: 1em;
+
+	.gutter {
+		.line { color: #aaa; }
+	}
+
+	.code {
+		padding-left: 10px;
+	}
+
+	table {
+		margin: 0 !important;
+		border: 0;
+
+		th, td { padding: 0; }
+	}
+
+	figcaption {
+		/* .styl has clearfix() */
+		margin: -5px 0 5px;
+		font-size: .9em;
+		color: gray; /* .style has 'color-gray' */
+
+		a { float: right; }
+	}
+
+	pre {
+		padding: 0;
+		border: none;
+		background: none;
+	}
+
+	.line {
+		height: 22px;
+	}
+}
+
+pre {
+
+	.comment,
+	.title {
+		color: $highlight-comment;
+	}
+
+	.variable,
+	.attribute,
+	.tag,
+	.regexp
+	.ruby .constant,
+	.xml .tag .title,
+	.xml .pi,
+	.xml .doctype,
+	.html .doctype,
+	.css .id,
+	.css .class,
+	.css .psuedo {
+		color: $highlight-red;
+	}
+
+	.number,
+	.preprocessor,
+	.built_in,
+	.literal,
+	.params,
+	.constant {
+		color: $highlight-orange;
+	}
+
+	.class,
+	.ruby .class .title,
+	.css .rules .attribute {
+		color: $highlight-green;
+	}
+
+	.string,
+	.value,
+	.inheritance,
+	.header,
+	.ruby .symbol,
+	.xml .cdata {
+		color: $highlight-green;
+	}
+
+	.css .hexcolor {
+		color: $highlight-aqua;
+	}
+
+	.function,
+	.python .decorator,
+	.python .title,
+	.ruby .function .title,
+	.ruby .title .keyword,
+	.perl .sub,
+	.javascript .title,
+	.coffeescript .title {
+		color: $highlight-blue;
+	}
+
+	.keyword,
+	.javascript .function {
+		color: $highlight-purple;
+	}
+}

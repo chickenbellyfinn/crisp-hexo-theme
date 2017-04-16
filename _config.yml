@@ -1,12 +1,13 @@
-logo: /asset/guolin.png
-rss: /atom.xml
+logo: /face.png
+# rss: /atom.xml
 disqus:
 google_analytics:
 
 # Social accounts
-instagram:
 pinterest:
-github:
+twitter: chickenbellyfin
+github: chickenbellyfinn
+instagram: chickenbellyfinn
+youtube: chickenbellyfinn
 facebook:
-twitter:
 linkedin:
