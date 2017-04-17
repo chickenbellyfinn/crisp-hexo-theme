@@ -60,7 +60,7 @@
         <header id="header">
             <% if (theme.logo) { %>
                 <a id="logo" href="<%- config.root %>">
-                    <img src="<%- config.root %><%- theme.logo %>" alt="<%- config.title%>" />
+                    <img src="<%- url_for(theme.logo) %>" alt="<%- config.title%>" />
                 </a>
             <% } %>
             

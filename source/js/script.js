@@ -6,7 +6,6 @@ $(function() {
     $('#theme-toggle').click(function(){
     	// toggle the cookie
     	var dark = (localStorage.getItem('dark') == 'true');
-    	console.log('set to '+ !dark)
     	localStorage.setItem('dark', !dark);
 
     	//update css
@@ -16,7 +15,6 @@ $(function() {
 
 // sets the css according to the cookie
 function applyTheme(){
-	console.log(localStorage.getItem('dark'));
 	var dark = (localStorage.getItem('dark') == 'true');
 
 	var cssLink = $('#crisp-theme')
