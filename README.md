@@ -1,10 +1,12 @@
 # crisp
 
-Preview: [Live Demo](//guolin.github.io)
+Preview: [Live Demo](https://chickenbellyfinn.github.io/crisp-hexo-theme/)
 
 ![hexo-theme-crisp](https://raw.githubusercontent.com/chickenbellyfinn/crisp-hexo-theme/master/screenshot.png)
 
-A minimalist theme inspired by a [Ghost theme](https://github.com/kathyqian/crisp-ghost-theme) of the same name by Kathy Qian.
+A Hexo theme based on [**Crisp**](https://github.com/kathyqian/crisp) ghost theme by [Kathy Qian](https://github.com/kathyqian).
+
+This version has some style differences from the original, including an optional dark mode.
 
 ## Installation
 
