@@ -237,7 +237,10 @@ footer a:hover {
 /* Large Screens */
 @media only screen and (min-width: 1281px) {
   html, body {
-    font-size: 1.1em; } }
+    font-size: 1.1em; }
+  img {
+    max-width: 70%;
+    max-height: 36em; } }
 
 /* Small Screens */
 @media only screen and (max-width: 800px) {
