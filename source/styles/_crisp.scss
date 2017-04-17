@@ -332,3 +332,12 @@ footer a:hover {
 		border-bottom: 1px solid $borderColor;
 	}
 }
+
+/* BRIGHTNESS TOGGLE */
+#theme-toggle {
+	top: 0;
+	right: 0;
+	position: absolute;
+	margin: .3em;
+	z-index: 10;
+}

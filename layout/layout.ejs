@@ -35,12 +35,13 @@
                 stylesheet = 'dark'
             }
         %>
-        <link rel="stylesheet" type="text/css" href="<%- config.root %>styles/<%= stylesheet %>.css">
+        <link id='crisp-theme' rel="stylesheet" type="text/css" href="<%- config.root %>styles/<%= stylesheet %>.css">
         
         <meta name="HandheldFriendly" content="True" />
         <meta name="MobileOptimized" content="320" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <script src="/js/jquery-3.2.0.min.js"></script>
+        <script src="<%- config.root %>js/jquery-3.2.0.min.js"></script>
+        <script src="<%- config.root %>js/script.js"></script>
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -54,10 +55,12 @@
 		<body class="post-template <%- config.dark %>">
 	<% } %>
         
+        <i id='theme-toggle' class='fa fa-2x fa-lightbulb-o'></i>
+        
         <header id="header">
             <% if (theme.logo) { %>
                 <a id="logo" href="<%- config.root %>">
-                    <img src="<%- theme.logo %>" alt="<%- config.title%>" />
+                    <img src="<%- config.root %><%- theme.logo %>" alt="<%- config.title%>" />
                 </a>
             <% } %>
             
