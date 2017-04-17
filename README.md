@@ -8,6 +8,9 @@ A minimalist theme inspired by a [Ghost theme](https://github.com/kathyqian/cris
 
 ## Installation
 
+### Requirements
+* hexo-renderer-sass
+
 ### Install
 
 ``` bash
