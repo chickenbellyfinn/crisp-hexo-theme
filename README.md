@@ -1,6 +1,6 @@
 # crisp
 
-Preview: [Live Demo](https://chickenbellyfinn.github.io/crisp-hexo-theme/)
+# [Live Demo](https://chickenbellyfinn.github.io/crisp-hexo-theme/)
 
 ![hexo-theme-crisp](https://raw.githubusercontent.com/chickenbellyfinn/crisp-hexo-theme/master/screenshot.png)
 
