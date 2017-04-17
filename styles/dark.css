@@ -97,7 +97,7 @@ img, iframe {
 a {
   font-weight: 700;
   text-decoration: none;
-  color: #4CAF50;
+  color: #F44336;
   /* Change Link Color */ }
 
 a:hover {
@@ -306,6 +306,14 @@ footer a:hover {
   *:not(figure) > table td {
     vertical-align: top;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+
+/* BRIGHTNESS TOGGLE */
+#theme-toggle {
+  top: 0;
+  right: 0;
+  position: absolute;
+  margin: .3em;
+  z-index: 10; }
 
 pre, code {
   font-family: monospace;
