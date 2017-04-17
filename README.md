@@ -41,4 +41,4 @@ Modify `$themeColor` in `source/styles/_theme.scss`
 - **facebook**
 - **twitter**
 - **linkedin**
-- ***youtube*
+- ***youtube**

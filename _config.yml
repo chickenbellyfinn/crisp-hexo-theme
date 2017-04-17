@@ -1,15 +1,15 @@
 logo: /logo.png
 dark: false
-
+  
 # rss: /atom.xml
 disqus:
 google_analytics:
 
 # Social accounts
 pinterest:
-twitter: chickenbellyfin
-github: chickenbellyfinn
-instagram: chickenbellyfinn
-youtube: chickenbellyfinn
+twitter: github
+github: github
+instagram: github
+youtube: github
 facebook:
 linkedin:
